@@ -1,14 +1,11 @@
 :root {
     --bg-color-page: #2C2B3D;
-
-
     --color-line: #00BFA6;
     --fc-nav: #FFFFFF;
     --fc-mainTitle: #FFFFFF;
     --fc-span: #00BFA6;
     --fc-description: #C2C2C2;
     --fc-description-bold: #7D7987;
-
     --ff-page: 'JetBrains Mono', monospace;
     --ff-description: 'Open Sans', sans-serif;     
     
@@ -26,15 +23,16 @@ body {
 }
 
 .page {
-    width: 109.2rem;
     margin: 0 auto;
     padding: 3.4rem 0;
+    width: 109.2rem;
 }
 
 .cabecalho {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 10rem;
 }
 
 .cabecalho__lista {
@@ -47,10 +45,46 @@ body {
 }
 
 .cabecalho__link {
-    font-family: var(--ff-page);
     color: var(--fc-nav);
+    font-family: var(--ff-page);
     font-size: 1.4rem;
-    line-height: 2.8rem;
     font-weight: 500;
+    line-height: 2.8rem;
     text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    gap: 8.6rem;
+}
+
+.principal__titulo {
+    font-family: var(--ff-page);
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    color: var(--fc-mainTitle);
+    margin-bottom: 5.9rem;
+    text-align: center;
+}
+
+.principal__titulo span {
+    color: var(--fc-span);
+}
+
+.principal__description {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    font-family: var(--ff-description);
+    color: var(--fc-description);
+    text-align: center;
+}
+
+.principal__description:nth-child(2) {
+    margin-bottom: 3rem;
+}
+
+.principal__description span {
+    color: var(--fc-span);
 }
