@@ -20,3 +20,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--bg-color-page);
+}
+
+.page {
+    width: 109.2rem;
+    margin: 0 auto;
+    padding: 3.4rem 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 6.4rem;
+}
+
+.cabecalho__items {
+    list-style: none;
+}
+
+.cabecalho__link {
+    font-family: var(--ff-page);
+    color: var(--fc-nav);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
