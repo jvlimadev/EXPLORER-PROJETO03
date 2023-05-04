@@ -56,6 +56,7 @@ body {
 .principal {
     display: flex;
     gap: 8.6rem;
+    margin-bottom: 17.8rem;
 }
 
 .principal__titulo {
@@ -87,4 +88,29 @@ body {
 
 .principal__description span {
     color: var(--fc-span);
+}
+
+.rodape__descricao {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: var(--fc-nav);
+    font-family: var(--ff-page);
+
+    border-top: 1px solid var(--color-line);
+    padding-top: 10px;
+    width: 56.8rem;
+    margin: 0 auto;
+}
+
+.rodape__link {
+    color: var(--fc-nav);
+    text-decoration: none;
+}
+
+.cadeado {
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
 }
