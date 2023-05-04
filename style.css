@@ -24,7 +24,7 @@ body {
 
 .page {
     margin: 0 auto;
-    padding: 3.4rem 0;
+    padding: 7rem 0 6.3rem;
     width: 109.2rem;
 }
 
@@ -98,7 +98,7 @@ body {
     font-weight: 500;
     line-height: 2.8rem;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 2rem;
     text-align: center;
     width: 56.8rem;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .cadeado {
-    bottom: 120px;
+    bottom: 80px;
     left: 20px;
     position: absolute;
 }
