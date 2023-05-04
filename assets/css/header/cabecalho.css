@@ -4,3 +4,10 @@
     justify-content: space-between;
     margin-bottom: 10rem;
 }
+
+@media screen and (max-width: 450px) {
+    .cabecalho {
+        display: block;
+        text-align: center;
+    }
+}

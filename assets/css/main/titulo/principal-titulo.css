@@ -11,3 +11,10 @@
 .principal__titulo span {
     color: var(--fc-span);
 }
+
+@media screen and (max-width: 450px) {
+    .principal__titulo {
+        max-width: 425px;
+        margin: 0 auto;
+    }
+}

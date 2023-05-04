@@ -3,3 +3,16 @@
     gap: 8.6rem;
     margin-bottom: 17.8rem;
 }
+
+@media screen and (max-width: 450px) {
+    .principal {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .principal__personagem {
+        max-width: 32rem;
+        margin: 0 auto;
+    }
+}
