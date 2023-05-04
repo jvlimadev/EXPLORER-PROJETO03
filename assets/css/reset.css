@@ -1,0 +1,19 @@
+:root {
+    --bg-color-page: #2C2B3D;
+    --color-line: #00BFA6;
+    --fc-nav: #FFFFFF;
+    --fc-mainTitle: #FFFFFF;
+    --fc-span: #00BFA6;
+    --fc-description: #C2C2C2;
+    --fc-description-bold: #7D7987;
+    --ff-page: 'JetBrains Mono', monospace;
+    --ff-description: 'Open Sans', sans-serif;     
+    
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

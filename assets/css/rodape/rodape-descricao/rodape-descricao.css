@@ -1,0 +1,12 @@
+.rodape__descricao {
+    color: var(--fc-nav);
+    border-top: 1px solid var(--color-line);
+    font-family: var(--ff-page);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+    width: 56.8rem;
+}

@@ -1,0 +1,8 @@
+.cabecalho__link {
+    color: var(--fc-nav);
+    font-family: var(--ff-page);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.principal__titulo {
+    color: var(--fc-mainTitle);
+    font-family: var(--ff-page);
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 5.9rem;
+    text-align: center;
+}
+
+.principal__titulo span {
+    color: var(--fc-span);
+}

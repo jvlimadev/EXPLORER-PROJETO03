@@ -1,0 +1,16 @@
+.principal__description {
+    color: var(--fc-description);
+    font-family: var(--ff-description);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    text-align: center;
+}
+
+.principal__description:nth-child(2) {
+    margin-bottom: 3rem;
+}
+
+.principal__description span {
+    color: var(--fc-span);
+}
